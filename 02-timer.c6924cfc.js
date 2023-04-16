@@ -1,0 +1,2 @@
+!function(){var o=new Date;function n(o){return String(o).padStart(2,"0")}console.log(o),t=Date.now(),setInterval((function(){var o=function(o){var t=1e3,r=60*t,e=60*r,a=24*e,s=(Math.floor(o/a),n(Math.floor(o%a/e))),u=n(Math.floor(o%a%e/r)),f=n(Math.floor(o%a%e%r/t));return{hours:s,minutes:u,seconds:f}}(Date.now()-t);o.hours,o.minutes,o.seconds}),1e3);var t}();
+//# sourceMappingURL=02-timer.c6924cfc.js.map

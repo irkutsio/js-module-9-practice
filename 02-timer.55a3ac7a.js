@@ -1,0 +1,2 @@
+const t=new Date;console.log(t);function o(t){return String(t).padStart(2,"0")}({start(){const t=Date.now();setInterval((()=>{const n=Date.now()-t,{hours:s,minutes:e,seconds:r}=function(t){const n=1e3,s=60*n,e=60*s,r=24*e,a=(Math.floor(t/r),o(Math.floor(t%r/e))),c=o(Math.floor(t%r%e/s)),u=o(Math.floor(t%r%e%s/n));return{hours:a,minutes:c,seconds:u}}(n)}),1e3)}}).start();
+//# sourceMappingURL=02-timer.55a3ac7a.js.map
